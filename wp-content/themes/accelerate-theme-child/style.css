@@ -11,7 +11,7 @@
 
 
 
-/******BASE STYLES *******/
+/********** BASE STYLES *******/
 
 html{
   font-size:16px;
@@ -27,8 +27,7 @@ html{
 
 }
 
-/****HEADER ******/
-
+/********** HEADER ******/
 
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
@@ -36,7 +35,6 @@ html{
     margin: 0;
     padding: 10% 0 30% 0;
 }
-
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
@@ -56,7 +54,7 @@ html{
   font-size:1.4em;
 }
 
-/****NAVIGATION******/
+/********** NAVIGATION******/
 #masthead nav {
   width:56%;
   text-align:right;
@@ -72,14 +70,12 @@ html{
   font-size:.85em;
 }
 
-
-
 .button {
     background: none repeat scroll 0 0 #45ac9d;
     padding:10px 30px;
 }
 
-/*****HOMEPAGE FEATURED WORK ********/
+/********** HOMEPAGE FEATURED WORK ********/
 
 .featured-work{
   margin:-15% 0 0 0;
@@ -123,17 +119,16 @@ html{
   margin-bottom:15%;
 }
 
-/****newsletter signup on blog ******/
+/********** NEWSLETTER SIGN UP ON BLOG ******/
 input#s,
 .mc4wp-form-fields p {
     margin-bottom: 2%;
 }
 
-/****BLOG POSTS - homepage ********/
+/****BLOG POSTS - HOMEPAGE ********/
 .recent-posts{
   clear:both;
 }
-
 
 .blog-post h4{
   font-size:16px;
@@ -164,13 +159,12 @@ input#s,
   width:90%;
 }
 
-/*****BLOG LANDING PAGE SIDEBAR *****/
+/********** BLOG LANDING PAGE SIDEBAR *****/
 aside.sidebar{
   width:100%;
   border:0;
   float:none;
 }
-
 
 input[type="submit"] {
     background-color: #45ac9d;
@@ -195,30 +189,25 @@ aside.widget{
 }
 
 
-/****Twitter Feed ******/
+/********** Twitter Feed ******/
 #pi_simpletwittertweets-2{
   width:90%;
   padding:0;
   margin:10% 0 0 5%;
 }
 
-
-
-
 .site-description{
   width:100%;
 }
 
 
-
-/*Case Studies */
+/**********Case Studies */
 
 .case-study-h1{
   color:black;
   font-size:1.3em;
   margin-left:-10%;
 }
-
 
 
 .case-study-images img{
@@ -228,7 +217,7 @@ aside.widget{
   height:100%;
 }
 
-/*****CASE STUDIES LANDING PAGE ******/
+/********** CASE STUDIES LANDING PAGE ******/
 
 .case-study-sidebar h2{
   margin-bottom:0;
@@ -249,7 +238,7 @@ aside.widget{
 }
 
 
-/**********ABOUT AND SERVICES PAGE *******************/
+/********** ABOUT AND SERVICES PAGE *******************/
 .about-page{
       background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
       height: 300px;
@@ -287,8 +276,6 @@ aside.widget{
   font-size:22px;
 }
 
-
-
 .services-list figure{
   margin: 0 10%;
 }
@@ -297,8 +284,6 @@ aside.widget{
   margin-bottom:10%;
 }
 
-
-
 .about-action {
   clear:both;
   margin:5%;
@@ -306,15 +291,13 @@ aside.widget{
   padding-top:5%;
 }
 
-
-
 .about-action h2{
   padding-right:5%;
   margin-bottom:10%;
 }
 
 
-/********FOOTER *************/
+/********** FOOTER *************/
 
 .social-media-navigation{
   width:100%;
@@ -325,7 +308,6 @@ aside.widget{
     display: flex;
     justify-content: center;
 }
-
 
 .social-media-navigation img{
   float:left;
@@ -345,19 +327,15 @@ aside.widget{
 }
 
 
-
-
-
 @media only screen and (min-width:750px){
 
-/********************TABLET STYLES ***************/
+/*******************TABLET STYLES ***************/
 
-/****header******/
+/********** HEADER **********/
 
 #masthead h1{
   margin-top:.5%;
 }
-
 
 
 #masthead nav ul li{
@@ -380,7 +358,7 @@ aside.widget{
 }
 
 
-/*****HOMEPAGE FEATURED WORK *******/
+/********** HOMEPAGE FEATURED WORK **********/
 
 .featured-work{
   margin:0;
@@ -408,7 +386,7 @@ aside.widget{
   height:auto;
 }
 
-/*******FRONT PAGE BLOG********/
+/********** FRONT PAGE BLOG **********/
 
 .blog-post{
   width:45%;
@@ -424,14 +402,14 @@ aside.widget{
 	text-transform: uppercase;
 }
 
-/****TWITTER FEED****/
+/********** TWITTER FEED **********/
 #pi_simpletwittertweets-2{
   width:40%;
   float:left;
   margin-top:10%;
 }
 
-/*****FOOTER***/
+/********** FOOTER **********/
 .site-description{
   width:50%;
   float:left;
@@ -453,9 +431,7 @@ aside.widget{
 }
 
 
-
-
-/***** ABOUT AND SERVICES PAGE **********/
+/********** ABOUT AND SERVICES PAGE **********/
 .about-hero h3{
   font-size:32px;
 }
@@ -464,11 +440,9 @@ aside.widget{
   height:240px;
 }
 
-
 .about-intro{
     margin-top:0
-  }
-
+}
 
 .about-intro h4{
   font-size:2em;
@@ -494,17 +468,15 @@ text-align:left;
 }
 
 
-/****SERVICES *******/
+/********** SERVICES **********/
 .services-list .individual-service:nth-child(even) .services-info{
   float:left;
   width:75%;
-
 }
 
 .services-list .individual-service:nth-child(odd) .services-info{
   float:right;
   width:75%;
-
 }
 
 .individual-service img{
@@ -520,7 +492,7 @@ text-align:left;
 }
 
 
-/*******CASE STUDIES*********/
+/********** CASE STUDIES *********/
 
 .case-study-sidebar {
     float: left;
@@ -528,7 +500,6 @@ text-align:left;
     display: block;
     margin: 0 5%;
 }
-
 
 .case-study-images{
   float:left;
@@ -541,11 +512,12 @@ text-align:left;
 
 
 }
-/*******DESKTOP STYLES*******/
+
+/********************DESKTOP STYLES ********************/
 
 @media only screen and (min-width:950px){
 
-  /***BLOG POSTS**/
+/********** BLOG POSTS **********/
   .main-content{
     width:64%;
     float:left;
@@ -553,7 +525,7 @@ text-align:left;
   }
 
 
-  /***BLOG SIDESBAR ***/
+/********** BLOG SIDESBAR **********/
   aside.sidebar{
     width:29%;
     float:left;
@@ -563,24 +535,24 @@ text-align:left;
   }
 
 
-  .services-list .individual-service:nth-child(even) .services-info{
-    float:left;
-    width:65%;
-    margin:0 5% 0 10%;
-  }
+.services-list .individual-service:nth-child(even) .services-info{
+  float:left;
+  width:65%;
+  margin:0 5% 0 10%;
+}
 
-  .services-list .individual-service:nth-child(odd) .services-info{
-    float:right;
-    width:65%;
-    margin:0 10% 0 5%;
-  }
+.services-list .individual-service:nth-child(odd) .services-info{
+  float:right;
+  width:65%;
+  margin:0 10% 0 5%;
+}
 
-  .about-action{
-    margin:5% 20%;
-  }
+.about-action{
+  margin:5% 20%;
+}
 
 
-/*****CASE STUDIES*******/
+/**********CASE STUDIES **********/
 .case-study-images img{
   max-width:750px;
 }
@@ -588,7 +560,7 @@ text-align:left;
 
 }
 
-/*******LARGE DESKTOP STYLES*********/
+/********************LARGE DESKTOP STYLES ********************/
 @media only screen and (min-width:1150px){
 
 #masthead{
@@ -603,17 +575,16 @@ text-align:left;
   font-size:1.2em;
 }
 
-
 .individual-service img{
-    margin:3% 0 0 0;
-  }
+  margin:3% 0 0 0;
+}
 
 
 #pi_simpletwittertweets-2{
-    width:40%;
-    float:left;
-    margin-top:5%;
-  }
+  width:40%;
+  float:left;
+  margin-top:5%;
+}
 
 .services{
   max-width:1200px;
@@ -623,7 +594,7 @@ text-align:left;
 
 }
 
-/*******WIDESCREEN DESKTOP STYLES*********/
+/********************WIDESCREEN DESKTOP STYLES ********************/
 @media only screen and (min-width:1500px){
 .blog-post{
   margin-left:10%;
